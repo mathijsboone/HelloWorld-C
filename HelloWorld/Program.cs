@@ -4,12 +4,18 @@
     {
         static void Main(string[] args)
         {
-            int x = 7;
-            int y = x + 3;
-            string answerPhrase = "The answer is ";
-            Console.WriteLine("Hello World");
-            Console.WriteLine(answerPhrase + y);
-            Console.ReadLine();
+
+
+            Console.WriteLine("What is your name?");
+            Console.Write("Type your first name: ");
+            string myFirstName;
+            myFirstName = Console.ReadLine();
+
+            string myLastName;
+            Console.Write("Type your last name: ");
+            myLastName = Console.ReadLine();
+
+            Console.WriteLine("Hello " + myFirstName + " " + myLastName);
         }
     }
 }
